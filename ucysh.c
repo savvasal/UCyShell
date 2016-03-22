@@ -7,7 +7,7 @@
 
 int main() {
 
-  char* ucysh_input, shell_prompt[100];
+  char* input, shell_prompt[100];
 
   /* Configure readline to auto-complete paths when the tab key is hit. */
   rl_bind_key('\t', rl_complete);
