@@ -26,7 +26,7 @@ int main() {
     /* Add input to history. */
     add_history(input);
 
-    // Do stuff...
+    
 
     /* Free input. */
     free(input);
