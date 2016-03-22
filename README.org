@@ -1,28 +1,27 @@
 * Περιγραφή
   Το κέλυφος έχει κατασκευαστεί στα πλαίσια μαθήματος [[http://www.cs.ucy.ac.cy/~dzeina/courses/epl371][Προγραμματισμού Συστημάτων]]
 * Λειτουργικότητες
-** TODO έξοδος από το κέλυφος
-** TODO καθολικές και τοπικές μεταβλητές κελύφους
-** TODO κληρονομικότητα των καθολικων μεταβλητών του κελύφους που το κάλεσε
-** TODO δυναμικές μεταβλητές τύπου $RANDOM, $HOSTNAME
-** TODO βασικές εντολές και build-in του bash shell με ορίσματα    
-*** TODO export
-*** TODO history
-*** TODO kill
-*** TODO let
-*** TODO local
-*** TODO logout
-*** TODO pwd
-*** TODO read
-*** TODO . filename
-*** TODO cd
-*** TODO declare or typeset
-*** TODO echo
-*** TODO exec
-*** TODO exit
-** TODO εκτέλεση εντολών στο προσκήνιο (foreground) και (background) με &
-** TODO ανακατεύθυνση εισόδου/εξόδου (I/O redirection) <, >
-** TODO σύμβολο ; να διαχωρίζει δύο ξεχωριστές εντολές
-** TODO εντολή pipe | - όχι εγγραφή/ανάγνωση σε/από αρχεία
-** TODO μετρητή του συνολικού αριθμού των διεργασιών που έγιναν fork, εκτύπωση του στην αρχή κάθε γραμμής του κελύφους.
-** TODO max 10 τρέχουσες ζωντανές διεργασίες "Insufficient Resources"
+  - TODO έξοδος από το κέλυφος
+  - TODO καθολικές και τοπικές μεταβλητές κελύφους
+  - TODO κληρονομικότητα των καθολικων μεταβλητών του κελύφους που το κάλεσε
+  - TODO δυναμικές μεταβλητές τύπου $RANDOM, $HOSTNAME
+  - TODO βασικές εντολές και build-in του bash shell με ορίσματα    
+   - TODO export
+   - TODO history
+   - TODO kill
+   - TODO let
+   - TODO local
+   - TODO logout
+   - TODO pwd
+   - TODO read
+   - TODO . filename
+   - TODO cd
+   - TODO declare or typeset
+   - TODO echo
+   - TODO exec
+   - TODO exit TODO εκτέλεση εντολών στο προσκήνιο (foreground) και (background) με &
+  - TODO ανακατεύθυνση εισόδου/εξόδου (I/O redirection) <, >
+  - TODO σύμβολο ; να διαχωρίζει δύο ξεχωριστές εντολές
+  - TODO εντολή pipe | - όχι εγγραφή/ανάγνωση σε/από αρχεία 
+  - TODO μετρητή του συνολικού αριθμού των διεργασιών που έγιναν fork, εκτύπωση του στην αρχή κάθε γραμμής του κελύφους.
+  - TODO max 10 τρέχουσες ζωντανές διεργασίες "Insufficient Resources"
