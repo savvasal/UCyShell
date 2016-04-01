@@ -13,14 +13,15 @@
    - TODO let
    - TODO local
    - TODO logout
-   - TODO pwd
+   - DONE pwd
    - TODO read
    - TODO . filename
    - TODO cd
    - TODO declare or typeset
-   - TODO echo
+   - DONE echo
    - TODO exec
-   - TODO exit TODO εκτέλεση εντολών στο προσκήνιο (foreground) και (background) με &
+   - TODO exit 
+   - TODO εκτέλεση εντολών στο προσκήνιο (foreground) και (background) με &
   - TODO ανακατεύθυνση εισόδου/εξόδου (I/O redirection) <, >
   - TODO σύμβολο ; να διαχωρίζει δύο ξεχωριστές εντολές
   - TODO εντολή pipe | - όχι εγγραφή/ανάγνωση σε/από αρχεία 
