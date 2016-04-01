@@ -1,12 +1,11 @@
-default: ucysh
+ucysh: echo
+	gcc ucysh.c -o ucysh -lreadline
 
-program.o: ucysh.c
-	gcc -c ucysh.c -o ucysh.o
-
-ucysh: ucysh.o
-	gcc ucysh.o -o ucysh -lreadline
+echo: echo.c
+	gcc echo.c -o echo
 
 clean:
-	-rm -f ucysh.o
+	-rm -f *.o
 	-rm -f ucysh
+	-rm -f echo
 	-rm -f *~
