@@ -13,7 +13,6 @@ cd: cd.c
 history: history.c
 	gcc history.c -o history
 
-
 clean:
 	-rm -f *.o
 	-rm -f ucysh

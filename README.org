@@ -28,6 +28,6 @@
   - TODO μετρητή του συνολικού αριθμού των διεργασιών που έγιναν fork, εκτύπωση του στην αρχή κάθε γραμμής του κελύφους.
   - TODO max 10 τρέχουσες ζωντανές διεργασίες "Insufficient Resources"
 * Πηγές
-  - [[http://www.cs.ucy.ac.cy/~dzeina/courses/epl371/schedule.html][Διαλέξεις]] από το μάθημα ΕΠΛ361
+  - [[http://www.cs.ucy.ac.cy/~dzeina/courses/epl371/schedule.html][Διαλέξεις]] από το μάθημα ΕΠΛ361 - Demetris Zeinalipour
   - [[http://aosabook.org/en/bash.html][The Bourne-Again Shell Architecture]]
-
+  - [[http://git.savannah.gnu.org/cgit/bash.git][GNU-Bash repository]]

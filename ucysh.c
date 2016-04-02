@@ -27,7 +27,7 @@ int main() {
       exit(-1);
     }
 
-  // TODO change i
+  // TODO change i if input = exit
   for(i=0;i<5;i++) {
     /* Create prompt string from user name and current working directory. */
     snprintf(shell_prompt, sizeof(shell_prompt), "ucysh:%s> ",getcwd(NULL, 1024));
@@ -37,6 +37,8 @@ int main() {
     /* Check for EOF. */
     if (!input)
       break;
+
+    //if input == exit
     
     /* Add input to history. */
     add_history(input);
