@@ -8,7 +8,7 @@
   - TODO δυναμικές μεταβλητές τύπου $RANDOM, $HOSTNAME
   - TODO βασικές εντολές και build-in του bash shell με ορίσματα    
    - TODO export
-   - TODO history
+   - DONE history
    - TODO kill
    - TODO let
    - TODO local
