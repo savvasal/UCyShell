@@ -14,18 +14,17 @@ int main() {
   
   for(;;) {
     /* Create prompt string from user name and current working directory. */
-    snprintf(shell_prompt, sizeof(shell_prompt), "ucysh> ");
-    
+    snprintf(shell_prompt, sizeof(shell_prompt), "ucysh:%s> ",getcwd(NULL, 1024));
     /* Display prompt and read input (NB: input must be freed after use)...*/
     input = readline(shell_prompt);
     
     /* Check for EOF. */
     if (!input)
       break;
-
+    
     /* Add input to history. */
     add_history(input);
-
+    
     
 
     /* Free input. */
