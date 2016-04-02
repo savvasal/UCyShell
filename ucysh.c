@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <readline/readline.h>
 #include <readline/history.h>
+#include <sys/wait.h>
+
 #define HISTORY_FILE "ucysh_history"
 
 int main() {
@@ -10,7 +12,7 @@ int main() {
   char* input, shell_prompt[100];
   char history_file_path[100];
   FILE *history_file = NULL;
-  int i=0; 
+  int i=0, pid, status; 
   /* Configure readline to auto-complete paths when the tab key is hit. */
   rl_bind_key('\t', rl_complete);
 
@@ -37,8 +39,24 @@ int main() {
     /* Check for EOF. */
     if (!input)
       break;
-
-    //if input == exit
+    
+    if((pid=fork()) == -1) { //error
+      perror("fork");
+      exit(1);
+    }
+    else if(pid == 0) { //child
+      execl(input, NULL);
+      
+      exit(1);
+    }
+    else { //parent
+      if (wait(&status) != pid) {
+	/* Wait for child */
+	perror("wait");
+	exit(1);
+      }		
+    }
+    
     
     /* Add input to history. */
     add_history(input);
