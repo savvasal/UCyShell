@@ -37,7 +37,7 @@ int main() {
     input = readline(shell_prompt);
     
     /* Check for EOF. */
-    if (!input)
+    if (!strcmp(input,"exit") || !strcmp(input,"logout"))
       break;
     
     if((pid=fork()) == -1) { //error
