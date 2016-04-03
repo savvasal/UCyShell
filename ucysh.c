@@ -30,7 +30,7 @@ int main() {
     }
 
   // TODO change i if input = exit
-  for(i=0;i<5;i++) {
+  for(;;) {
     /* Create prompt string from user name and current working directory. */
     snprintf(shell_prompt, sizeof(shell_prompt), "ucysh:%s> ",getcwd(NULL, 1024));
     /* Display prompt and read input (NB: input must be freed after use)...*/
