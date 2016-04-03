@@ -9,7 +9,7 @@
   - TODO βασικές εντολές και build-in του bash shell με ορίσματα    
    - TODO export
    - DONE history
-   - TODO kill
+   - DONE kill
    - TODO let
    - TODO local
    - DONE logout

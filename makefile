@@ -1,4 +1,4 @@
-ucysh: echo pwd cd history
+ucysh: echo pwd cd history kill
 	gcc ucysh.c -o ucysh -lreadline
 
 echo: echo.c
@@ -13,6 +13,9 @@ cd: cd.c
 history: history.c
 	gcc history.c -o history
 
+kill: kill.c
+	gcc kill.c -o kill
+
 clean:
 	-rm -f *.o
 	-rm -f ucysh
@@ -20,4 +23,5 @@ clean:
 	-rm -f pwd
 	-rm -f cd
 	-rm -f history
+	-rm -f kill
 	-rm -f *~
