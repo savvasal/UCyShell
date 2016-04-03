@@ -12,7 +12,7 @@
    - TODO kill
    - TODO let
    - TODO local
-   - TODO logout
+   - DONE logout
    - DONE pwd
    - TODO read
    - TODO . filename
@@ -20,7 +20,7 @@
    - TODO declare or typeset
    - DONE echo
    - TODO exec
-   - TODO exit 
+   - DONE exit 
   - TODO εκτέλεση εντολών στο προσκήνιο (foreground) και (background) με &
   - TODO ανακατεύθυνση εισόδου/εξόδου (I/O redirection) <, >
   - TODO σύμβολο ; να διαχωρίζει δύο ξεχωριστές εντολές
